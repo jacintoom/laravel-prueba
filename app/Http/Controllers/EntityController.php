@@ -6,10 +6,10 @@ use App\Models\Category;
  
 class EntityController extends Controller
 {
-    /*
-        dddd
-    */
     protected $apiService;
+    /*
+        @autor: Jacinto Alex Olazo Mollo
+    */
     public function __construct(ApiService $apiService)
     {
         $this->apiService = $apiService;
