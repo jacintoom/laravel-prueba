@@ -3,11 +3,13 @@ namespace App\Http\Controllers;
 use App\Services\ApiService;
 use Illuminate\Http\Request;
 use App\Models\Category;
-
+ 
 class EntityController extends Controller
 {
+    /*
+        dddd
+    */
     protected $apiService;
-
     public function __construct(ApiService $apiService)
     {
         $this->apiService = $apiService;

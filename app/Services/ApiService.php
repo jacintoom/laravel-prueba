@@ -9,7 +9,9 @@ use Exception;
 class ApiService
 {
     protected $apiUrl = 'http://web.archive.org/web/20240403172734/https://api.publicapis.org/entries';
-
+    /*
+        @autor: Jacinto Alex Olazo Mollo
+    */
     public function findStoreEntities($category,$id)
     {   
         try {
