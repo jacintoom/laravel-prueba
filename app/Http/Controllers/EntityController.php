@@ -9,6 +9,7 @@ class EntityController extends Controller
     protected $apiService;
     /*
         @autor: Jacinto Alex Olazo Mollo
+        @email: jacinto201816@gmail.com
     */
     public function __construct(ApiService $apiService)
     {
