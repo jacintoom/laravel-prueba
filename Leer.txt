@@ -1,0 +1,15 @@
+1.- Borra las tablas existentes y crear las tablas
+php artisan migrate:fresh
+
+2.- Llenamos la tabla entities
+php artisan db:seed
+
+3.- En el Browser
+
+http: {SITE_URL}/api/Animals
+http: {SITE_URL}/api/Security
+
+4 .- Pruebas unitarias.
+Por compromisos ya adquiridos, no termine con la Pruebas Unitarias.
+
+
